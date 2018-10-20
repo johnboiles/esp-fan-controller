@@ -32,7 +32,6 @@ void callback(char *topic, byte *payload, unsigned int length) {
   DLOG("Received callback for topic %s\n", topic);
   // If the 'fan/power' topic has a payload > 0, activate the fan
   if (strcmp(eventTopic, topic) == 0) {
-    char payloadString[10];
     byte* p = (byte*)malloc(length + 1);
     // Copy the payload to the new buffer (since payload is not null terminated)
     memcpy(p, payload, length);
