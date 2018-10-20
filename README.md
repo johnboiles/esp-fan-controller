@@ -1,4 +1,5 @@
 # esp-fan-controller
+![TravisCI Build Status](https://travis-ci.org/johnboiles/esp-fan-controller.svg?branch=master)
 
 Control a PWM'd fan over MQTT with an ESP12 and a mostfet.
 
