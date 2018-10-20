@@ -24,6 +24,7 @@ cache:
 
 install:
     - pip install -U platformio
+    - cp src/secrets.example.h src/secrets.h
 
 script:
     - platformio run
