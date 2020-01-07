@@ -1,3 +1,5 @@
+*DEPRECATED. I've now moved to using [ESPHome](https://esphome.io/) for my fan controller. See [here](https://github.com/johnboiles/homeassistant-config/tree/master/esphome) for my ESPHome configs (specifically look at [`basement_fan.yaml`](https://github.com/johnboiles/homeassistant-config/blob/master/esphome/basement_fan.yaml).*
+
 # esp-fan-controller
 ![TravisCI Build Status](https://travis-ci.org/johnboiles/esp-fan-controller.svg?branch=master)
 
